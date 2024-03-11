@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  
+  <title>Frontend Mentor | Social links profile</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+@media screen and (max-width: 375px) {
+  body{
+  background-color:hsl(0, 0%, 8%);
+  color: white;
+  font-family:Inter;
+}
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profile{
+  width: 100%;
+  background-color: hsl(0, 0%, 12%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 20px;
+
+}
+.profile img{
+  width: 110px;
+  border-radius: 50%;
+  padding: 5px;
+}
+.profile h1{
+  font-size: 27px;
+  /* margin-bottom: 5px; */
+  padding: 5px;
+
+}
+.profile h4{
+  font-size: 15px;
+  color: hsl(75, 94%, 57%);
+}
+
+.profile p{
+  font-size: 14px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.btn{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  font-size:20px ;
+  
+
+}
+.btn button{
+  width: 100%;
+  height: 40px;
+  font-size:15px ;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-color: transparent;
+  color: white;
+  background-color:hsl(0, 0%, 20%) ;
+}
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  
+}
+
+ @media screen and (min-width: 376px){
+  body{
+  background-color:hsl(0, 0%, 8%);
+  color: white;
+  font-family:Inter;
+}
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profile{
+  width: 375px;
+  background-color: hsl(0, 0%, 12%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 100px;
+  padding: 30px;
+  border-radius: 20px;
+
+}
+.profile img{
+  width: 110px;
+  border-radius: 50%;
+  padding: 5px;
+}
+.profile h1{
+  font-size: 27px;
+  /* margin-bottom: 5px; */
+  padding: 5px;
+
+}
+.profile h4{
+  font-size: 15px;
+  color: hsl(75, 94%, 57%);
+}
+
+.profile p{
+  font-size: 14px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.btn{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  
+
+}
+.btn button{
+  width: 100%;
+  height: 40px;
+  font-size:15px ;
+  font-weight: bold;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-color: transparent;
+  color: white;
+  background-color:hsl(0, 0%, 20%) ;
+}
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+}
+  </style>
+</head>
+<body>
+  <!-- <header></header> -->
+<!-- <nav></nav> -->
+<main>
+  <div class="profile">
+    <img src="./assets/images/avatar-jessica.jpeg" alt="Profile Picture">
+    <h1>Jessica Randall</h1>
+    <h4>London, United Kingdom</h4>
+    <p>"Front-end developer and avid reader."</p>
+    <div class="btn">
+      <button>GitHub</button><br>
+      <button> Frontend Mentor</button><br>
+      <button>LinkedIn</button><br>
+      <button>Twitter</button><br>
+      <button> Instagram</button>
+    </div>
+  </div>
+</main>
+  <!-- Jessica Randall
+  London, United Kingdom
+  "Front-end developer and avid reader."
+
+  GitHub
+  Frontend Mentor
+  LinkedIn
+  Twitter
+  Instagram -->
+  
+ <footer>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+ </footer>
+</body>
+</html>
